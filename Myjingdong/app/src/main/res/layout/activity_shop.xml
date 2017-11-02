@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sjx.bawei.com.myjingdong.activity.ShopActivity">
+
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+    </WebView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        >
+    <Button
+        android:id="@+id/xq_add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="297dp"
+        android:layout_y="519dp"
+        android:background="#FF8A00"
+        android:text="加入购物车"
+        android:layout_weight="1"
+
+        />
+          <Button
+            android:id="@+id/xq_mai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF5D01"
+            android:text="立即购买"
+
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>
